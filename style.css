@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    
+   
+   
+}
+.photo{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    /* -webkit-mask-image: url(./src/pngwing.com.png);
+    -webkit-mask-size:contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-image: url(./src/pngwing.com.png); */
+
+}
+/* .photo:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    min-height: 100%;
+    background: url(./src/splash.jpg);
+    width: 800px;
+    height:600px;
+    background-position: center;
+    mix-blend-mode:lighten;
+
+} */
+
+/* ----------------------------------flex-transition--------------------------------------- */
+.card-test{
+    flex: 1;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.card-test .img-test{
+    object-fit:cover ;
+    filter:blur(10px);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.card-test:hover{
+    flex: 1.5;
+    transition: 0.5s;
+
+}
+.card-test:hover .img-test{
+    filter: none;
+    transition: 0.5s;
+
+}
+#img{
+    height: 600px;;
+    width: 600px
+}
+.container-card{
+    background-color: rgb(37, 35, 35);
+}
+
+
+/* ----------------------------------flex-transition-----END---------------------------------- */
+
+/* ____________________ image inside text----------------------------------- */
+div h1{
+    font-size: 15px;
+    margin: 0;
+    background-image: url(./src/IMG20200706112157.jpg);
+    background-size: cover;
+    background-clip: text;
+    font-weight: 800;
+    font-size: 120px;
+
+    -webkit-background-clip: text;
+    color: transparent;
+   
+}
+/* ____________________ image inside text----end------------------------------- */
+
+
+/* ------------------------animated card______________________ */
+
+#c2-img{
+   
+    object-fit: contain;
+    height: 820px;
+    border: 2px;
+}
+.card-img img{
+    height: 460px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card-img:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0 50px #00fffc;
+    margin: 5px;
+}
+/* .gallary{
+    /* background-color: black; */
+  /*  display: flex;
+    justify-content: center;
+    
+   gap: 16px;
+   scale: 1.6; */
+
+
+
+.container{
+    background-color: rgba(18, 20, 32, 0.929);
+    /* background-color: rgba(26, 24, 24, 0.829); */
+
+
+}
+.card-3{
+    /* background-color: black; */
+    /* background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/2153184.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken; */
+    /* background-color: rgba(26, 24, 24, 0.829); */
+    background-color: rgba(18, 20, 32, 0.929);
+
+
+
+}
+@keyframes pulse {
+    0%{
+        transform: scale(0.8);
+        background-color: #0e3bc0;
+        box-shadow: 0 0 0 0
+        rgba(178,212,252,0.7);
+    
+    }
+    50%{
+        transform: scale(0.8);
+        background-color: #00fffc;
+        box-shadow: 0 0 0 5px
+        rgba(178,212,252,0.325);
+
+    }
+    100%{
+        transform: scale(0.8);
+        background-color: #0e3bc0;
+        box-shadow: 0 0 0 0
+        rgba(19,55,97);
+    
+    }
+}
+
+/* ------------------------animated card____ end__________________ */
+
+.info{
+   justify-content: space-evenly;
+   align-items: start;
+
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+/* ---------card2 css------------------------------------- */
+.carousel{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/pexels-alan-quirván-3981749.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken;
+
+}
+.card_section{
+    /* background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/2153184.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken; */
+    background-color: rgba(18, 20, 32, 0.829);
+}
+
+li{
+    list-style: none;
+    size: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+i{
+    padding:  2px 2px 2px;
+}
+/* h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 50px;
+
+} */
+#intro   {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/ind.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken;
+}
+.slider{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/2153184.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken;
+}
+/* .card_section{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/2153184.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken;
+} */
+
+  a,h2,h4{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  .navbar-brand{
+    color: white;
+    font-size: 40px;
+  }
+  a{
+   text-decoration: none;
+  }
+  .header{
+    background-color: rgba(18, 20, 32, 0.829);
+
+}
+.footer{
+
+    height: 65vh;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.112),rgba(22, 22, 22, 0.121)) ,url(./src/PicsArt_05-26-07.51.55-01\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    padding: 6rem 0;
+    overflow: hidden;
+    mix-blend-mode:darken;
+
+}
